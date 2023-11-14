@@ -8,14 +8,14 @@
   
   .home-page .div {
     background-color: #ffffff;
-    width: 1440px;
+    width: 100%;
     height: 1024px;
     position: relative;
   }
   
   .home-page .overlap {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 600px;
     top: 160px;
     left: 0;
@@ -23,7 +23,7 @@
   
   .home-page .welcome {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 550px;
     top: 0;
     left: 0;
@@ -38,7 +38,7 @@
   
   .home-page .rectangle {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 550px;
     top: 0;
     left: 0;
@@ -48,7 +48,7 @@
   
   .home-page .physician-trends {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 550px;
     top: 0;
     left: 0;
@@ -90,10 +90,12 @@
   
   .home-page .appoinment-signin {
     position: absolute;
-    width: 1066px;
+    width: 1066px; 
     height: 100px;
-    top: 500px;
-    left: 197px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
   }
   
   .home-page .sign-in {
@@ -183,22 +185,24 @@
   }
   
   .home-page .navbar {
+    margin: 0 auto;
     display: flex;
-    width: 1440px;
+    width: 100%; /* Genişliği ekran genişliğine yay */
     align-items: center;
     justify-content: center;
     gap: 276px;
-    padding: 17px 187px 18px;
+    padding: 17px 20px; /* Padding değerlerini ihtiyacınıza göre ayarlayın */
     position: absolute;
     top: 80px;
     left: 0;
+    right: 0; /* Ekran genişliği kadar olacak şekilde sağ kenarı ayarla */
     background-color: var(--primary);
     box-shadow: 0px 4px 4px #00000040;
-  }
+  }   
   
   .home-page .navbar-2 {
-    display: inline-flex;
-    align-items: flex-start;
+    display: flex;
+    align-items: center;
     gap: 20px;
     position: relative;
     flex: 0 0 auto;
@@ -400,10 +404,13 @@
   
   .home-page .welcome-text {
     position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 660px;
     height: 162px;
-    top: 807px;
-    left: 391px;
+    /* top: 807px;
+    left: 391px; */
   }
   
   .home-page .group-9 {
