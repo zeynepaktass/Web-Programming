@@ -28,7 +28,8 @@
     top: 0;
     left: 0;
     background-image: url(https://c.animaapp.com/PVLm48Nt/img/physician-trends-2021-merritt-hawkins-1.png);
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-size:auto; 
   }
   
   .home-page .overlap-group {
@@ -200,19 +201,6 @@
     box-shadow: 0px 4px 4px #00000040;
   } 
   
-  .home-page .text-wrapper-4 {
-    position: relative;
-    width: fit-content;
-    display: flex;
-    margin-top: -1px;
-    font-family: "Work Sans", Helvetica;
-    font-weight: 400;
-    color: var(--white);
-    font-size: 22px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
   
   .home-page .navbar-2 {
     align-items: center;
@@ -485,7 +473,8 @@
   
   .home-page .link-button-2 {
     position: absolute;
-    top: 90%;
+    top: 100%;
+    bottom: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: fit-content;
