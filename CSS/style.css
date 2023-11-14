@@ -190,7 +190,8 @@
     display: flex;
     width: 100%;
     padding-left: 18vw;
-    padding-bottom: 35px;
+    padding-top: 1vw;
+    padding-bottom:1vw;
     position: relative;
     top: 80px;
     left: 0;
@@ -205,20 +206,10 @@
     gap: 20px;
     position: relative;
     flex: 0 0 auto;
+    
   }
   
-  .home-page .text-wrapper-3 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Work Sans", Helvetica;
-    font-weight: 600;
-    color: var(--accent);
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
+
   
   .home-page .text-wrapper-4 {
     position: relative;
@@ -227,7 +218,7 @@
     font-family: "Work Sans", Helvetica;
     font-weight: 400;
     color: var(--white);
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
