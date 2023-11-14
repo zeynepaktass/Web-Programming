@@ -192,8 +192,8 @@
     display: flex;
     width: 100%;
     padding-left: 18vw;
-    padding-top: 1vw;
-    padding-bottom:1vw;
+    padding-top: 1.5vw;
+    padding-bottom:1.5vw;
     position: relative;
     top: 80px;
     left: 0;
@@ -242,7 +242,7 @@
   }
   
   .home-page .button {
-    display: inline-flex;
+    /* display: inline-flex;
     align-items: flex-start;
     gap: 10px;
     padding: 13px 35px;
@@ -252,11 +252,18 @@
     background-color: var(--accent);
     border-radius: 50px;
     all: unset;
+    box-sizing: border-box; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    all: unset;
     box-sizing: border-box;
   }
   
   .home-page .button-2 {
-    position: relative;
+    /* position: relative;
     width: fit-content;
     margin-top: -1px;
     font-family: "Work Sans", Helvetica;
@@ -267,7 +274,20 @@
     line-height: normal;
     white-space: nowrap;
     all: unset;
-    box-sizing: border-box;
+    box-sizing: border-box; */
+    position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-font-family);
+  font-weight: var(--body-font-weight);
+  color: var(--secondary);
+  font-size: var(--body-font-size);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  white-space: nowrap;
+  font-style: var(--body-font-style);
+  all: unset;
+  box-sizing: border-box;
   }
   
   .home-page .topmost {
@@ -482,7 +502,6 @@
     margin-top: -1px;
     font-family: var(--body-font-family);
     font-weight: var(--body-font-weight);
-    color: var(--secondary);
     font-size: var(--body-font-size);
     letter-spacing: var(--body-letter-spacing);
     line-height: var(--body-line-height);
@@ -492,6 +511,11 @@
     box-sizing: border-box;
   }
   
+  .home-page .welcome-text .link-button-2 {
+    color: var(--secondary); 
+  } 
+
+
   .home-page .vector {
     position: relative;
     width: 12.83px;
