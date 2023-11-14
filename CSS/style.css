@@ -28,8 +28,9 @@
     top: 0;
     left: 0;
     background-image: url(https://c.animaapp.com/PVLm48Nt/img/physician-trends-2021-merritt-hawkins-1.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-size:auto; 
+    /*We will make some changes here*/
   }
   
   .home-page .overlap-group {
