@@ -22,33 +22,39 @@
   }
   
   .home-page .welcome {
-  position: absolute;
-  width: 100%;
-  left: 0;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    top: 0;
+    left: 0;
+    background-image: url(https://c.animaapp.com/PVLm48Nt/img/physician-trends-2021-merritt-hawkins-1.png);
+    background-repeat: no-repeat; 
+    background-size:auto; 
+    /*We will make some changes here*/
   }
   
   .home-page .overlap-group {
     position: relative;
-    height: 600px;
+    height: 550px;
   }
   
   .home-page .rectangle {
     position: absolute;
     width: 100%;
-    height: 600px;
+    height: 550px;
     top: 0;
     left: 0;
     transform: rotate(180deg);
     background: linear-gradient(180deg, rgb(229, 228, 232) 8.79%, rgba(235, 234, 239, 0) 100%);
   }
   
-  .home-page .physician-trends {
+  /* .home-page .physician-trends {
     position: absolute;
     width: 100%;
-    height: 600px;
+    height: 550px;
     top: 0;
     left: 0;
-  }
+  } */
   
   .home-page .welcome-TEXT {
     position: absolute;
@@ -306,7 +312,7 @@
     width: 570px;
     height: 42px;
     top: 21px;
-    left: 60vw;
+    left: 701px;
   }
   
   .home-page .group-3 {
