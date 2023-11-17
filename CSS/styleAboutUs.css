@@ -1,5 +1,5 @@
 /* sdmsa */
-.desktop {
+.about {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -7,17 +7,17 @@
     width: 100%;
   }
   
-  .desktop .div {
+  .about .div {
     background-color: #ffffff;
     width: 100%;
     height: 1024px;
     position: relative;
   }
 
-  .desktop .navbar {
+  .about .menu {
     align-items: center;
     margin: 0 auto;
-    display: flex;
+    display: block;
     width: 100%;
     padding-left: 18vw;
     padding-top: 1.5vw;
@@ -28,19 +28,19 @@
     right: 0;
     background-color: var(--primary);
     box-shadow: 0px 4px 4px #00000040;
+    z-index: 1;
+
   } 
   
-  
-  .desktop .navbar-2 {
+  .about .menu-items {
     align-items: center;
     display: flex;
     gap: 20px;
     position: relative;
     flex: 0 0 auto;
-    
   }
   
-  .desktop .text-wrapper {
+  .about .text-wrapper {
     position: relative;
     width: fit-content;
     margin-top: -1px;
@@ -53,7 +53,7 @@
     white-space: nowrap;
   }
   
-  .desktop .text-wrapper-2 {
+  .about .website-text {
     position: relative;
     width: fit-content;
     margin-top: -1px;
@@ -66,13 +66,13 @@
     white-space: nowrap;
   }
   
-  .desktop .group {
+  .about .group {
     position: relative;
     width: 223px;
     height: 45px;
   }
   
-  .desktop .img {
+  .about .img {
     position: absolute;
     width: 22px;
     height: 22px;
@@ -80,7 +80,7 @@
     left: -1px;
   }
   
-  .desktop .button {
+  .about .button {
     display: inline-flex;
     align-items: flex-start;
     gap: 10px;
@@ -94,7 +94,7 @@
     box-sizing: border-box;
   }
   
-  .desktop .button-2 {
+  .about .button-2 {
     position: relative;
     width: fit-content;
     margin-top: -1px;
@@ -109,7 +109,7 @@
     box-sizing: border-box;
   }
   
-  .desktop .overlap {
+  .about .about-us-content {
     position: absolute;
     width: 1381px;
     height: 529px;
@@ -117,7 +117,7 @@
     left: 35px;
   }
   
-  .desktop .group-2 {
+  .about .headline-about-us {
     position: absolute;
     width: 450px;
     height: 131px;
@@ -125,7 +125,7 @@
     left: 546px;
   }
   
-  .desktop .best-care-for-your {
+  .about .best-care-for-your {
     position: absolute;
     top: 21px;
     left: 0;
@@ -138,7 +138,7 @@
     font-style: var(--display-1-font-style);
   }
   
-  .desktop .welcome-to-ELYSIUM {
+  .about .welcome-to-ELYSIUM {
     position: absolute;
     top: 0;
     left: 0;
@@ -152,7 +152,7 @@
     font-style: var(--caption-font-style);
   }
   
-  .desktop .group-wrapper {
+  .about .lists-div {
     position: absolute;
     width: 481px;
     height: 107px;
@@ -160,12 +160,12 @@
     left: 578px;
   }
   
-  .desktop .group-3 {
+  .about .lists {
     position: relative;
     height: 107px;
   }
   
-  .desktop .group-4 {
+  .about .lists-first {
     position: absolute;
     width: 214px;
     height: 25px;
@@ -173,7 +173,7 @@
     left: 0;
   }
   
-  .desktop .text-wrapper-3 {
+  .about .list-text {
     position: absolute;
     top: 0;
     left: 26px;
@@ -187,7 +187,7 @@
     font-style: var(--body-2-font-style);
   }
   
-  .desktop .rectangle {
+  .about .rectangle {
     position: absolute;
     width: 16px;
     height: 16px;
@@ -197,7 +197,7 @@
     border-radius: 50px;
   }
   
-  .desktop .group-5 {
+  .about .lists-second {
     position: absolute;
     width: 131px;
     height: 25px;
@@ -205,7 +205,7 @@
     left: 0;
   }
   
-  .desktop .group-6 {
+  .about .lists-third {
     position: absolute;
     width: 130px;
     height: 25px;
@@ -213,7 +213,7 @@
     left: 252px;
   }
   
-  .desktop .group-7 {
+  .about .lists-fourth {
     position: absolute;
     width: 142px;
     height: 25px;
@@ -221,7 +221,7 @@
     left: 252px;
   }
   
-  .desktop .group-8 {
+  .about .lists-fifth {
     position: absolute;
     width: 230px;
     height: 25px;
@@ -229,7 +229,7 @@
     left: 253px;
   }
   
-  .desktop .group-9 {
+  .about .lists-sixth {
     position: absolute;
     width: 151px;
     height: 25px;
@@ -237,7 +237,7 @@
     left: 0;
   }
   
-  .desktop .group-10 {
+  .about .paragraph {
     position: absolute;
     width: 1381px;
     height: 523px;
@@ -245,7 +245,7 @@
     left: 0;
   }
   
-  .desktop .at-ELYSIUM-HOSPITAL {
+  .about .at-ELYSIUM-HOSPITAL {
     position: absolute;
     width: 833px;
     top: 296px;
@@ -257,17 +257,17 @@
     line-height: 16px;
   }
   
-  .desktop .span {
+  .about .span {
     letter-spacing: 0;
     line-height: 22.4px;
   }
   
-  .desktop .text-wrapper-4 {
+  .about .text-bold {
     font-weight: 700;
     letter-spacing: -0.32px;
   }
   
-  .desktop .text-wrapper-5 {
+  .about .text-bold-comma {
     font-weight: var(--body-font-weight);
     font-size: var(--body-font-size);
     letter-spacing: var(--body-letter-spacing);
@@ -276,7 +276,7 @@
     line-height: var(--body-line-height);
   }
   
-  .desktop .rectangle-2 {
+  .about .rectangle-2 {
     position: absolute;
     width: 434px;
     height: 226px;
@@ -285,7 +285,7 @@
     object-fit: cover;
   }
   
-  .desktop .rectangle-3 {
+  .about .rectangle-3 {
     position: absolute;
     width: 434px;
     height: 259px;
@@ -294,24 +294,24 @@
     object-fit: cover;
   }
   
-  .desktop .sub-head {
-    position: absolute;
+  .about .sub-head {
+   position: absolute;
     width: 100%;
-    height: 250px;
+    height: 27%;
     top: 174px;
-    left: 37px;
-    background-image: url(https://c.animaapp.com/WetVhjOZ/img/rectangle-3-1.png);
-    background-size: auto;
+    left: 0px;
+    background-size: 100% 100%;
+    background-image: url(https://media.istockphoto.com/id/1364075546/photo/empty-corridor-in-modern-hospital-with-information-counter-and-hospital-bed-in-rooms-3d.jpg?s=612x612&w=0&k=20&c=xxFDmIVpH1wJaaiorpvfzec4RRggSb48PDb_dU9bTjo=);
     background-repeat: no-repeat;
   }
 /*   
-  .desktop .overlap-group {
+  .about .overlap-about-image-div {
     position: relative;
     height: 250px;
     background-color: #ffffff80;
   } */
   
-  .desktop .overlap-group-wrapper {
+  .about .overlap-about-image-wrapper {
     position: absolute;
     width: 1366px;
     height: 250px;
@@ -319,12 +319,12 @@
     left: 0;
   }
   
-  .desktop .overlap-group-2 {
+  .about .overlap-about-image-text {
     position: relative;
     height: 250px;
   }
   
-  .desktop .frame {
+  .about .frame {
     position: absolute;
     width: 1366px;
     height: 250px;
@@ -333,7 +333,7 @@
     overflow: hidden;
   }
   
-  /* .desktop .ellipse {
+  /* .about .ellipse {
     position: absolute;
     width: 256px;
     height: 256px;
@@ -341,10 +341,10 @@
     left: 1238px;
     background-color: var(--accent);
     border-radius: 128px;
-    opacity: 0.5;
+    opacity: 0.5;sub
   }
   
-  .desktop .ellipse-2 {
+  .about .ellipse-2 {
     position: absolute;
     width: 239px;
     height: 239px;
@@ -355,7 +355,7 @@
     opacity: 0.3;
   } */
   
-  .desktop .group-11 {
+  .about .rectangle-div {
     position: absolute;
     width: 1366px;
     height: 8px;
@@ -363,7 +363,7 @@
     left: 0;
   }
   
-  /* .desktop .rectangle-4 {
+  /* .about .rectangle-4 {
     position: absolute;
     width: 837px;
     height: 8px;
@@ -372,7 +372,7 @@
     background-color: var(--primary);
   }
   
-  .desktop .rectangle-5 {
+  .about .rectangle-5 {
     position: absolute;
     width: 223px;
     height: 8px;
@@ -381,7 +381,7 @@
     background-color: var(--secondary);
   }
   
-  .desktop .rectangle-6 {
+  .about .rectangle-6 {
     position: absolute;
     width: 306px;
     height: 8px;
@@ -390,7 +390,7 @@
     background-color: var(--accent);
   } */
   
-  .desktop .overlap-wrapper {
+  .about .overlap-wrapper {
     position: absolute;
     width: 324px;
     height: 76px;
@@ -398,13 +398,13 @@
     left: 187px;
   }
   
-  .desktop .overlap-2 {
+  .about .image-text {
     position: relative;
     width: 320px;
     height: 76px;
   }
   
-  .desktop .text-wrapper-6 {
+  .about .about-us {
     position: absolute;
     top: 21px;
     left: 0;
@@ -418,7 +418,7 @@
     font-style: var(--display-1-font-style);
   }
   
-  .desktop .text-wrapper-7 {
+  .about .home-about-us {
     position: absolute;
     top: 0;
     left: 0;
@@ -432,7 +432,7 @@
     font-style: var(--body-2-font-style);
   }
   
-  .desktop .group-12 {
+  .about .top {
     position: absolute;
     width: 1440px;
     height: 83px;
@@ -440,7 +440,7 @@
     left: 0;
   }
   
-  .desktop .group-13 {
+  .about .top-emergency-working-hour-location {
     position: absolute;
     width: 570px;
     height: 42px;
@@ -449,7 +449,7 @@
   }
     
   
-  .desktop .group-14 {
+  .about .top-emergency {
     position: absolute;
     width: 164px;
     height: 42px;
@@ -457,7 +457,7 @@
     left: 0;
   }
   
-  .desktop .text-wrapper-8 {
+  .about .top-phone-number {
     position: absolute;
     top: 21px;
     left: 46px;
@@ -470,7 +470,7 @@
     white-space: nowrap;
   }
   
-  .desktop .group-15 {
+  .about .top-emergency-image {
     position: absolute;
     width: 40px;
     height: 38px;
@@ -478,7 +478,7 @@
     left: 0;
   }
   
-  .desktop .emergency {
+  .about .emergency {
     position: absolute;
     top: 0;
     left: 46px;
@@ -491,7 +491,7 @@
     white-space: nowrap;
   }
   
-  .desktop .group-16 {
+  .about .top-working-hour {
     position: absolute;
     width: 227px;
     height: 40px;
@@ -499,7 +499,7 @@
     left: 207px;
   }
   
-  .desktop .text-wrapper-9 {
+  .about .top-working-hour-country {
     position: absolute;
     top: 21px;
     left: 40px;
@@ -512,7 +512,7 @@
     white-space: nowrap;
   }
   
-  .desktop .group-17 {
+  .about .top-working-hour-image {
     position: absolute;
     width: 32px;
     height: 32px;
@@ -520,7 +520,7 @@
     left: -1px;
   }
   
-  .desktop .text-wrapper-10 {
+  .about .top-capital {
     position: absolute;
     top: 0;
     left: 40px;
@@ -533,7 +533,7 @@
     white-space: nowrap;
   }
   
-  .desktop .group-18 {
+  .about .top-location {
     position: absolute;
     width: 124px;
     height: 40px;
@@ -541,7 +541,7 @@
     left: 450px;
   }
   
-  .desktop .group-19 {
+  .about .top-location-image {
     position: absolute;
     width: 32px;
     height: 38px;
@@ -549,12 +549,61 @@
     left: -1px;
   }
   
-  .desktop .ekran-grnts {
+  .about .hospital-icon {
     position: absolute;
     width: 355px;
     height: 80px;
     top: 3px;
     left: 98px;
     object-fit: cover;
+  }
+  
+  .about-footer .footer {
+    background-color: var(--primary);
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    margin-top: 50px; /* Adjust this value based on your layout */
+  }
+  
+  .about-footer .footer-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .about-footer .footer-item {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .about-footer .footer-item-text {
+    font-family: "Work Sans", Helvetica;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease; /* smooth color transition */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-footer .footer-item-text i {
+    margin-right: 5px;
+  }
+  
+  .about-footer .footer-item-text:hover {
+    color: var(--iris-60); /* change color on hover */
+  }
+  
+  .about-footer .footer-item .link-symbol::before {
+    content: '\2023'; 
+    color: var(--iris-80); 
+    font-size: 16px;
+    margin-right: 5px;
   }
   

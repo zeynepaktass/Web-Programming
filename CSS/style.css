@@ -30,7 +30,6 @@
   background-image: url(https://c.animaapp.com/PVLm48Nt/img/physician-trends-2021-merritt-hawkins-1.png);
   background-repeat: no-repeat; 
   background-size:auto; 
-  /*We will make some changes here*/
 }
 
 .home-page .overlap-group {
@@ -115,7 +114,7 @@
   border-radius: 5px;
 }
 
-.home-page .text-wrapper {
+.home-page .register-sign-in {
   position: relative;
   width: 170px;
   font-family: "Work Sans", Helvetica;
@@ -149,7 +148,7 @@
   border-radius: 5px;
 }
 
-.home-page .text-wrapper-2 {
+.home-page .book-appointment {
   position: relative;
   width: 170px;
   margin-top: -11px;
@@ -186,7 +185,7 @@
   border-radius: 5px;
 }
 
-.home-page .navbar {
+.home-page .menu {
   align-items: center;
   margin: 0 auto;
   display: flex;
@@ -203,7 +202,7 @@
 } 
 
 
-.home-page .navbar-2 {
+.home-page .menu-items {
   align-items: center;
   display: flex;
   gap: 20px;
@@ -214,7 +213,7 @@
 
 
 
-.home-page .text-wrapper-4 {
+.home-page .website-text {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -290,7 +289,7 @@
   box-sizing: border-box;
 }
 
-.home-page .topmost {
+.home-page .top {
   position: absolute;
   width: 1440px;
   height: 83px;
@@ -298,7 +297,7 @@
   left: 0;
 }
 
-.home-page .ekran-grnts {
+.home-page .hospital-icon {
   position: absolute;
   width: 355px;
   height: 80px;
@@ -307,7 +306,7 @@
   object-fit: cover;
 }
 
-.home-page .group-2 {
+.home-page .top-emergency-working-hour-location {
   position: absolute;
   width: 570px;
   height: 42px;
@@ -323,7 +322,7 @@
   left: 0;
 }
 
-.home-page .text-wrapper-5 {
+.home-page .top-phone-number {
   position: absolute;
   top: 21px;
   left: 46px;
@@ -336,7 +335,7 @@
   white-space: nowrap;
 }
 
-.home-page .group-4 {
+.home-page .top-emergency-image {
   position: absolute;
   width: 40px;
   height: 38px;
@@ -357,7 +356,7 @@
   white-space: nowrap;
 }
 
-.home-page .group-5 {
+.home-page .top-working-hour {
   position: absolute;
   width: 227px;
   height: 40px;
@@ -365,7 +364,7 @@
   left: 207px;
 }
 
-.home-page .text-wrapper-6 {
+.home-page .top-working-hour-country {
   position: absolute;
   top: 21px;
   left: 40px;
@@ -378,7 +377,7 @@
   white-space: nowrap;
 }
 
-.home-page .group-6 {
+.home-page .top-working-hour-image {
   position: absolute;
   width: 32px;
   height: 32px;
@@ -386,7 +385,7 @@
   left: -1px;
 }
 
-.home-page .text-wrapper-7 {
+.home-page .top-capital {
   position: absolute;
   top: 0;
   left: 40px;
@@ -399,7 +398,7 @@
   white-space: nowrap;
 }
 
-.home-page .group-7 {
+.home-page .top-location {
   position: absolute;
   width: 124px;
   height: 40px;
@@ -407,7 +406,7 @@
   left: 450px;
 }
 
-.home-page .group-8 {
+.home-page .top-location-image {
   position: absolute;
   width: 32px;
   height: 38px;
@@ -426,7 +425,7 @@
   left: 391px; */
 }
 
-.home-page .group-9 {
+.home-page .headline {
   position: absolute;
   width: 477px;
   height: 66px;
@@ -464,7 +463,7 @@
   font-style: var(--caption-font-style);
 }
 
-.home-page .text-wrapper-8 {
+.home-page .paragraph {
   position: absolute;
   width: 658px;
   top: 81px;
@@ -492,7 +491,7 @@
   transform: translate(-50%, -50%);
 }
 
-.home-page .link-button-2 {
+.home-page .learn-more {
   position: absolute;
   top: 100%;
   bottom: 0%;
@@ -511,7 +510,7 @@
   box-sizing: border-box;
 }
 
-.home-page .welcome-text .link-button-2 {
+.home-page .welcome-text .learn-more {
   color: var(--secondary); 
 } 
 
@@ -523,3 +522,52 @@
   margin-right: -1px;
 }
 
+  
+.about-footer .footer {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  position: relative;
+  margin-top: 50px; /* Adjust this value based on your layout */
+}
+
+.about-footer .footer-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-footer .footer-item {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.about-footer .footer-item-text {
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 15px;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-footer .footer-item-text i {
+  margin-right: 5px;
+}
+
+.about-footer .footer-item-text:hover {
+  color: var(--iris-60);
+}
+
+.about-footer .footer-item .link-symbol::before {
+  content: '\2023'; 
+  color: var(--iris-80); 
+  font-size: 16px;
+  margin-right: 5px;
+}

@@ -1,4 +1,4 @@
-.desktop {
+.contact {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -6,14 +6,14 @@
   width: 100%;
 }
 
-.desktop .div {
+.contact .div {
   background-color: #ffffff;
   width: 100%;
   height: 1024px;
   position: relative;
 }
 
-.desktop .navbar {
+.contact .menu {
   align-items: center;
   margin: 0 auto;
   display: flex;
@@ -29,16 +29,15 @@
   box-shadow: 0px 4px 4px #00000040;
 } 
 
-.desktop .navbar-2 {
+.contact .menu-items {
   align-items: center;
   display: flex;
   gap: 20px;
   position: relative;
   flex: 0 0 auto;
-  
 }
 /*
-.desktop .navbar {
+.contact .navbar {
 display: flex;
 width: 1440px;
 align-items: center;
@@ -52,7 +51,7 @@ background-color: #1f2b6c;
 box-shadow: 0px 4px 4px #00000040;
 }
 
-.desktop .navbar-2 {
+.contact .navbar-2 {
 display: inline-flex;
 align-items: flex-start;
 gap: 20px;
@@ -60,7 +59,7 @@ position: relative;
 flex: 0 0 auto;
 }
 */
-.desktop .text-wrapper {
+.contact .text-wrapper {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -73,7 +72,7 @@ flex: 0 0 auto;
   white-space: nowrap;
 }
 
-.desktop .text-wrapper-2 {
+.contact .website-text {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -86,13 +85,13 @@ flex: 0 0 auto;
   white-space: nowrap;
 }
 
-.desktop .group {
+.contact .group {
   position: relative;
   width: 223px;
   height: 45px;
 }
 
-.desktop .img {
+.contact .img {
   position: absolute;
   width: 22px;
   height: 22px;
@@ -100,7 +99,7 @@ flex: 0 0 auto;
   left: -1px;
 }
 
-.desktop .button {
+.contact .button {
   display: inline-flex;
   align-items: flex-start;
   gap: 10px;
@@ -114,7 +113,7 @@ flex: 0 0 auto;
   box-sizing: border-box;
 }
 
-.desktop .button-2 {
+.contact .button-2 {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -129,7 +128,7 @@ flex: 0 0 auto;
   box-sizing: border-box;
 }
 
-.desktop .sub-head {
+.contact .sub-head {
   position: absolute;
   width: 100%;
   height: 35%;
@@ -137,6 +136,7 @@ flex: 0 0 auto;
   left: 0px;
   background-image: url(https://c.animaapp.com/IQy7NEBf/img/rectangle-3-1.png);
   background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 /*.home-page .welcome {
@@ -151,13 +151,13 @@ flex: 0 0 auto;
   
 }
 */
-/*.desktop .overlap {
+/*.contact .overlap {
   position: relative;
   height: 250px;
   background-color: #ffffff80;
 }*/
 
-.desktop .overlap-group-wrapper {
+.contact .overlap-group-wrapper {
   position: absolute;
   width: 1381px;
   height: 529px;
@@ -165,12 +165,12 @@ flex: 0 0 auto;
   left: 35px;
 }
 
-.desktop .overlap-group {
+.contact .overlap-group {
   position: relative;
   height: 250px;
 }
 
-.desktop .frame {
+.contact .frame {
   position: absolute;
   width: 1366px;
   height: 250px;
@@ -179,7 +179,7 @@ flex: 0 0 auto;
   overflow: hidden;
 }
 
-/*.desktop .ellipse {
+/*.contact .ellipse {
   position: absolute;
   width: 256px;
   height: 256px;
@@ -190,7 +190,7 @@ flex: 0 0 auto;
   opacity: 0.5;
 }
 
-.desktop .ellipse-2 {
+.contact .ellipse-2 {
   position: absolute;
   width: 239px;
   height: 239px;
@@ -201,7 +201,7 @@ flex: 0 0 auto;
   opacity: 0.3;
 }*/
 
-.desktop .group-2 {
+.contact .group-2 {
   position: absolute;
   width: 1366px;
   height: 8px;
@@ -209,7 +209,7 @@ flex: 0 0 auto;
   left: 0;
 }
 
-/*.desktop .rectangle {
+/*.contact .rectangle {
   position: absolute;
   width: 837px;
   height: 8px;
@@ -218,7 +218,7 @@ flex: 0 0 auto;
   background-color: var(--primary);
 }
 
-.desktop .rectangle-2 {
+.contact .rectangle-2 {
   position: absolute;
   width: 223px;
   height: 8px;
@@ -227,7 +227,7 @@ flex: 0 0 auto;
   background-color: var(--secondary);
 }
 
-.desktop .rectangle-3 {
+.contact .rectangle-3 {
   position: absolute;
   width: 306px;
   height: 8px;
@@ -236,7 +236,7 @@ flex: 0 0 auto;
   background-color: var(--accent);
 }*/
 
-.desktop .overlap-wrapper {
+.contact .overlap-wrapper {
   position: absolute;
   width: 324px;
   height: 76px;
@@ -244,13 +244,13 @@ flex: 0 0 auto;
   left: 187px;
 }
 
-.desktop .overlap-2 {
+.contact .image-text {
   position: relative;
   width: 320px;
   height: 76px;
 }
 
-.desktop .about-us {
+.contact .contact-us {
   position: absolute;
   top: 21px;
   left: 0;
@@ -264,7 +264,7 @@ flex: 0 0 auto;
   font-style: var(--display-1-font-style);
 }
 
-.desktop .home-about {
+.contact .home-contact {
   position: absolute;
   top: 0;
   left: 0;
@@ -278,7 +278,7 @@ flex: 0 0 auto;
   font-style: var(--body-2-font-style);
 }
 
-.desktop .google-map {
+.contact .google-map {
   position: absolute;
   width: 325px;
   height: 486px;
@@ -301,7 +301,7 @@ top: 0;
 position: absolute;
 }*/
 
-.desktop .group-3 {
+.contact .form-contacts {
   position: absolute;
   width: 992px;
   height: 486px;
@@ -309,7 +309,7 @@ position: absolute;
   left: 48px;
 }
 
-.desktop .text-wrapper-3 {
+.contact .text-wrapper-3 {
   position: absolute;
   top: 29px;
   left: 0;
@@ -324,7 +324,7 @@ position: absolute;
   font-style: var(--display-2-font-style);
 }
 
-.desktop .get-in-touch {
+.contact .get-in-touch {
   position: absolute;
   top: 0;
   left: 0;
@@ -338,7 +338,7 @@ position: absolute;
   font-style: var(--caption-font-style);
 }
 
-.desktop .group-5 {
+.contact .form-contacts-div {
   position: absolute;
   width: 486px;
   height: 486px;
@@ -346,7 +346,7 @@ position: absolute;
   left: 506px;
 }
 
-.desktop .group-wrapper {
+.contact .contacts-locations-div {
   position: absolute;
   width: 233px;
   height: 233px;
@@ -356,7 +356,7 @@ position: absolute;
   border-radius: 5px;
 }
 
-.desktop .group-6 {
+.contact .contacts-locations {
   position: relative;
   width: 153px;
   height: 130px;
@@ -364,7 +364,7 @@ position: absolute;
   left: 30px;
 }
 
-.desktop .group-7 {
+.contact .contacts-locations-image {
   position: absolute;
   width: 32px;
   height: 38px;
@@ -372,7 +372,7 @@ position: absolute;
   left: 0;
 }
 
-.desktop .group-8 {
+.contact .contacts-locations-text {
   position: absolute;
   width: 159px;
   height: 78px;
@@ -380,7 +380,7 @@ position: absolute;
   left: 0;
 }
 
-.desktop .text-wrapper-4 {
+.contact .place-map {
   position: absolute;
   top: 29px;
   left: 0;
@@ -394,7 +394,7 @@ position: absolute;
   font-style: var(--body-font-style);
 }
 
-.desktop .text-wrapper-5 {
+.contact .country-map {
   position: absolute;
   top: 56px;
   left: 0;
@@ -408,7 +408,7 @@ position: absolute;
   font-style: var(--body-font-style);
 }
 
-.desktop .location {
+.contact .location {
   position: absolute;
   top: 0;
   left: 0;
@@ -421,7 +421,7 @@ position: absolute;
   white-space: nowrap;
 }
 
-.desktop .div-wrapper {
+.contact .contacts-emergency-div {
   position: absolute;
   width: 233px;
   height: 233px;
@@ -431,7 +431,7 @@ position: absolute;
   border-radius: 5px;
 }
 
-.desktop .group-9 {
+.contact .contacts-emergency {
   position: relative;
   width: 148px;
   height: 131px;
@@ -439,7 +439,7 @@ position: absolute;
   left: 26px;
 }
 
-.desktop .group-10 {
+.contact .contacts-emergency-image {
   position: absolute;
   width: 40px;
   height: 38px;
@@ -447,7 +447,7 @@ position: absolute;
   left: 0;
 }
 
-.desktop .group-11 {
+.contact .contacts-emergency-text {
   position: absolute;
   width: 150px;
   height: 78px;
@@ -455,7 +455,7 @@ position: absolute;
   left: 4px;
 }
 
-.desktop .text-wrapper-6 {
+.contact .contact-info-1 {
   position: absolute;
   top: 29px;
   left: 0;
@@ -469,7 +469,7 @@ position: absolute;
   font-style: var(--body-font-style);
 }
 
-.desktop .text-wrapper-7 {
+.contact .contact-info-2 {
   top: 56px;
   left: 0;
   font-weight: var(--body-font-weight);
@@ -483,7 +483,7 @@ position: absolute;
   font-style: var(--body-font-style);
 }
 
-.desktop .text-wrapper-8 {
+.contact .emergency-email-working-hours {
   position: absolute;
   top: 0;
   left: 0;
@@ -496,7 +496,7 @@ position: absolute;
   white-space: nowrap;
 }
 
-.desktop .group-12 {
+.contact .contacts-email-div {
   position: absolute;
   width: 233px;
   height: 233px;
@@ -506,7 +506,7 @@ position: absolute;
   border-radius: 5px;
 }
 
-.desktop .group-13 {
+.contact .contacts-email {
   position: relative;
   width: 181px;
   height: 120px;
@@ -514,7 +514,7 @@ position: absolute;
   left: 30px;
 }
 
-.desktop .group-14 {
+.contact .contacts-email-image {
   position: absolute;
   width: 37px;
   height: 32px;
@@ -522,7 +522,7 @@ position: absolute;
   left: 0;
 }
 
-.desktop .group-15 {
+.contact .contacts-email-text {
   position: absolute;
   width: 187px;
   height: 72px;
@@ -530,7 +530,7 @@ position: absolute;
   left: 0;
 }
 
-.desktop .text-wrapper-9 {
+.contact .contact-info-2-email {
   position: absolute;
   top: 56px;
   left: 0;
@@ -544,7 +544,7 @@ position: absolute;
   font-style: var(--small-font-style);
 }
 
-.desktop .group-16 {
+.contact .contacts-working-hours-div {
   position: absolute;
   width: 233px;
   height: 233px;
@@ -554,7 +554,7 @@ position: absolute;
   border-radius: 5px;
 }
 
-.desktop .group-17 {
+.contact .contacts-working-hours {
   position: relative;
   width: 185px;
   height: 127px;
@@ -562,7 +562,7 @@ position: absolute;
   left: 30px;
 }
 
-.desktop .group-18 {
+.contact .contacts-working-hours-image {
   position: absolute;
   width: 32px;
   height: 32px;
@@ -570,7 +570,7 @@ position: absolute;
   left: 0;
 }
 
-.desktop .group-19 {
+.contact .contacts-working-hours-text {
   position: absolute;
   width: 191px;
   height: 78px;
@@ -578,7 +578,7 @@ position: absolute;
   left: 0;
 }
 
-/* .desktop .group-20 {
+/* .contact .form-to-be-div {
   position: absolute;
   width: 494px;
   height: 388px;
@@ -586,13 +586,13 @@ position: absolute;
   left: 0;
 }
 
-.desktop .overlap-3 {
+.contact .form-to-be {
   position: relative;
   width: 488px;
   height: 388px;
 }
 
-.desktop .rectangle-4 {
+.contact .rectangle-4 {
   position: absolute;
   width: 486px;
   height: 388px;
@@ -602,7 +602,7 @@ position: absolute;
   border-radius: 5px;
 }
 
-.desktop .rectangle-5 {
+.contact .rectangle-5 {
   position: absolute;
   width: 243px;
   height: 50px;
@@ -612,7 +612,7 @@ position: absolute;
   border-radius: 5px 0px 0px 0px;
 }
 
-.desktop .rectangle-6 {
+.contact .rectangle-6 {
   position: absolute;
   width: 242px;
   height: 50px;
@@ -622,7 +622,7 @@ position: absolute;
   border-radius: 0px 5px 0px 0px;
 }
 
-.desktop .rectangle-7 {
+.contact .rectangle-7 {
   position: absolute;
   width: 486px;
   height: 50px;
@@ -631,7 +631,7 @@ position: absolute;
   background-color: var(--primary);
 }
 
-.desktop .rectangle-8 {
+.contact .rectangle-8 {
   position: absolute;
   width: 486px;
   height: 235px;
@@ -640,7 +640,7 @@ position: absolute;
   background-color: var(--primary);
 } */
 
-.desktop .group-21 {
+.contact .form-to-be-submit {
   position: absolute;
   width: 488px;
   height: 50px;
@@ -648,7 +648,7 @@ position: absolute;
   left: 0;
 }
 
-/* .desktop .submit-wrapper {
+/* .contact .submit-wrapper {
   position: relative;
   width: 486px;
   height: 50px;
@@ -656,7 +656,7 @@ position: absolute;
   border-radius: 0px 0px 5px 5px;
 }
 
-.desktop .submit {
+.contact .submit {
   position: absolute;
   top: 15px;
   left: 213px;
@@ -670,7 +670,7 @@ position: absolute;
   white-space: nowrap;
 } */
 
-.desktop .text-wrapper-10 {
+.contact .form-name {
   top: 14px;
   left: 20px;
   font-weight: var(--body-font-weight);
@@ -684,7 +684,7 @@ position: absolute;
   font-style: var(--body-font-style);
 }
 
-.desktop .text-wrapper-11 {
+.contact .form-email {
   position: absolute;
   top: 15px;
   left: 264px;
@@ -698,7 +698,7 @@ position: absolute;
   font-style: var(--body-font-style);
 }
 
-.desktop .text-wrapper-12 {
+.contact .form-subject {
   position: absolute;
   top: 66px;
   left: 20px;
@@ -712,7 +712,7 @@ position: absolute;
   font-style: var(--body-font-style);
 }
 
-.desktop .text-wrapper-13 {
+.contact .form-message {
   position: absolute;
   top: 117px;
   left: 20px;
@@ -726,7 +726,7 @@ position: absolute;
   font-style: var(--body-font-style);
 }
 
-.desktop .group-22 {
+.contact .top {
   position: absolute;
   width: 1440px;
   height: 83px;
@@ -734,7 +734,7 @@ position: absolute;
   left: 0;
 }
 
-.desktop .group-23 {
+.contact .top-emergency-working-hour-location {
   position: absolute;
   width: 570px;
   height: 42px;
@@ -748,7 +748,7 @@ position: absolute;
   top: 21px;
   left: 60vw;
 }*/
-.desktop .group-24 {
+.contact .top-emergency {
   position: absolute;
   width: 164px;
   height: 42px;
@@ -756,7 +756,7 @@ position: absolute;
   left: 0;
 }
 
-.desktop .text-wrapper-14 {
+.contact .top-phone-number {
   position: absolute;
   top: 21px;
   left: 46px;
@@ -769,7 +769,7 @@ position: absolute;
   white-space: nowrap;
 }
 
-.desktop .group-25 {
+.contact .top-emergency-image {
   position: absolute;
   width: 40px;
   height: 38px;
@@ -777,7 +777,7 @@ position: absolute;
   left: 0;
 }
 
-.desktop .emergency {
+.contact .emergency {
   position: absolute;
   top: 0;
   left: 46px;
@@ -790,7 +790,7 @@ position: absolute;
   white-space: nowrap;
 }
 
-.desktop .group-26 {
+.contact .top-working-hour {
   position: absolute;
   width: 227px;
   height: 40px;
@@ -798,7 +798,7 @@ position: absolute;
   left: 207px;
 }
 
-.desktop .text-wrapper-15 {
+.contact .top-working-hour-country {
   position: absolute;
   top: 21px;
   left: 40px;
@@ -811,7 +811,7 @@ position: absolute;
   white-space: nowrap;
 }
 
-.desktop .group-27 {
+.contact .top-working-hour-image {
   position: absolute;
   width: 32px;
   height: 32px;
@@ -819,7 +819,7 @@ position: absolute;
   left: -1px;
 }
 
-.desktop .text-wrapper-16 {
+.contact .top-capital {
   position: absolute;
   top: 0;
   left: 40px;
@@ -832,7 +832,7 @@ position: absolute;
   white-space: nowrap;
 }
 
-.desktop .group-28 {
+.contact .top-location {
   position: absolute;
   width: 124px;
   height: 40px;
@@ -840,7 +840,7 @@ position: absolute;
   left: 450px;
 }
 
-.desktop .group-29 {
+.contact .top-location-image {
   position: absolute;
   width: 32px;
   height: 38px;
@@ -848,7 +848,7 @@ position: absolute;
   left: -1px;
 }
 
-.desktop .ekran-grnts {
+.contact .hospital-icon {
   position: absolute;
   width: 355px;
   height: 80px;
@@ -886,6 +886,7 @@ body{
 .wrapper header{
   font-size: 30px;
   font-weight: 600;
+  color: rgba(31, 43, 108, 1);
   padding: 20px 30px;
   border-bottom: 1px solid #ccc;
   font-family: "Work Sans", Helvetica;
@@ -918,6 +919,8 @@ form .message textarea{
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  font-family: "Poppins", sans-serif;
+
 }
 .field input::placeholder,
 .message textarea::placeholder{
@@ -963,7 +966,7 @@ form .button-area{
   transition: background 0.3s ease;
   margin-left: 90px; 
   width: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 .button-area button:hover{
   background: rgba(31, 43, 108, 1);
@@ -994,4 +997,52 @@ form .button-area{
   }
   
 }
+  
+.about-footer .footer {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  position: relative;
+  margin-top: 50px; /* Adjust this value based on your layout */
+}
 
+.about-footer .footer-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-footer .footer-item {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.about-footer .footer-item-text {
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 15px;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease; /* smooth color transition */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-footer .footer-item-text i {
+  margin-right: 5px;
+}
+
+.about-footer .footer-item-text:hover {
+  color: var(--iris-60); /* change color on hover */
+}
+
+.about-footer .footer-item .link-symbol::before {
+  content: '\2023'; 
+  color: var(--iris-80); 
+  font-size: 16px;
+  margin-right: 5px;
+}
